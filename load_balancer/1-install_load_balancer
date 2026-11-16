@@ -4,8 +4,8 @@
 apt-get update -y
 apt-get install -y haproxy
 
-WEB01_PRIVATE_IP="18.130.141.151"
-WEB02_PRIVATE_IP="18.171.135.64"
+WEB01_PRIVATE_IP="18.132.10.131"
+WEB02_PRIVATE_IP="13.43.219.124"
 
 echo "Configured backend: web-01 (${WEB01_PRIVATE_IP})"
 echo "Configured backend: web-02 (${WEB02_PRIVATE_IP})"
